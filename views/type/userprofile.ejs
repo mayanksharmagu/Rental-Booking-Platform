@@ -1,0 +1,39 @@
+<% layout("/layouts/boilerplate.ejs") %>
+<style>
+    .userimg{
+        height: 300px;
+        width: 300px;
+        border: 2px solid black;
+        border-radius: 50%;
+    }
+    .user-info{
+        display: flex;
+        justify-content: space-between;
+    }
+    .details {
+        margin-top: 50px;
+    }
+    
+</style>
+<div class="row">
+    <div class="col-8">
+            <div class="user-info">
+                <img class="userimg" src="https://media.istockphoto.com/id/522855255/vector/male-profile-flat-blue-simple-icon-with-long-shadow.jpg?s=612x612&w=0&k=20&c=EQa9pV1fZEGfGCW_aEK5X_Gyob8YuRcOYCYZeuBzztM=">
+                <div class="details">
+                    <h1>User Details</h1>
+                    <hr>
+                    <p>User Id : <%= curruser._id %></p><hr>
+                    <p>User Name : @<%= curruser.username %></p><hr>
+                    <p>email_id : <%= curruser.email %></p><hr>
+                </div>
+            </div>
+        <div class="col-8 offset-1 mt-3">
+            <h1>@<%= curruser.username %></h1>
+            <p>email_id : <%= curruser.email %></p>
+        </div>
+    </div>
+</div>
+<hr>
+<a href="/your/listings" class="offset-1">
+    <button class="btn btn-info mb-3"> See your Add-ons</button>
+</a>
