@@ -43,7 +43,7 @@ rental-booking-system/
 
 ## 📸 UI Screenshots
 
-
+![image alt](https://github.com/mayanksharmagu/Rental-Booking-Platform/blob/af8c238cb3e7901509ee7cd4af2901955b5294e7/Homepage.png)
 
 
 
