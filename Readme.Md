@@ -24,22 +24,22 @@ A full-stack web application for booking rental properties, developed using Node
 ## 📂 Project Structure
 
 rental-booking-system/
-├── app.js                 # Main Express server file – handles routes, middleware, and server logic
-├── cloudConfig.js         # Cloudinary configuration for handling image uploads securely
-├── schema.js              # Mongoose schema defining rental property fields (title, price, image URL, location, etc.)
+├── app.js                 
+├── cloudConfig.js         
+├── schema.js             
 ├── public/
-│   ├── style.css          # General styling for layout, colors, and fonts
-│   ├── rating.css         # Custom CSS for star rating UI component
-│   ├── script.js          # Client-side JavaScript for interactive UI actions
-│   ├── map.js             # Google Maps setup with markers for rental locations
+│   ├── style.css          
+│   ├── rating.css         
+│   ├── script.js       
+│   ├── map.js             
 ├── views/
-│   ├── index.html         # (Expected) Homepage or rental listings view
-│   ├── add.html           # (Expected) Page for adding new property listings
-│   ├── view.html          # (Expected) Page to view individual property details
-├── uploads/               # (If used) Temporary directory for image uploads
-├── .env                   # Environment variables (MongoDB URI, Cloudinary credentials, API keys)
-├── package.json           # Project metadata and dependencies
-└── README.md              # Project documentation
+│   ├── index.html         
+│   ├── add.html           
+│   ├── view.html          
+├── uploads/              
+├── .env                   
+├── package.json          
+└── README.md             
 
 ## 📸 UI Screenshots
 
