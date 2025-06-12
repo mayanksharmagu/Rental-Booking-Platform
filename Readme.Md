@@ -42,22 +42,22 @@ rental-booking-system/
 └── README.md             
 
 ## 🧪 How to Run the Project Locally
-# Step 1: Clone the repository
+Step 1: Clone the repository
 git clone https://github.com/your-username/rental-booking-system.git
 cd rental-booking-system
 
-# Step 2: Install dependencies
+Step 2: Install dependencies
 npm install
 
-# Step 3: Add environment variables
+ Step 3: Add environment variables
 touch .env
-# Add the following:
-# PORT=3000
-# MONGODB_URI=your_mongodb_connection_string
-# CLOUD_NAME=your_cloudinary_cloud_name
-# CLOUD_API_KEY=your_cloudinary_api_key
-# CLOUD_API_SECRET=your_cloudinary_api_secret
-# GOOGLE_MAPS_API_KEY=your_google_maps_api_key
+Add the following:
+PORT=3000
+MONGODB_URI=your_mongodb_connection_string
+CLOUD_NAME=your_cloudinary_cloud_name
+CLOUD_API_KEY=your_cloudinary_api_key
+CLOUD_API_SECRET=your_cloudinary_api_secret
+GOOGLE_MAPS_API_KEY=your_google_maps_api_key
 
 # Step 4: Start the server
 node app.js
