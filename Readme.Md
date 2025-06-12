@@ -42,9 +42,13 @@ rental-booking-system/
 └── README.md             
 
 ## 📸 UI Screenshots
+Home Page
 
 ![image alt](https://github.com/mayanksharmagu/Rental-Booking-Platform/blob/af8c238cb3e7901509ee7cd4af2901955b5294e7/Homepage.png)
 
+Card Info
+
+![image alt](https://github.com/mayanksharmagu/Rental-Booking-Platform/blob/07dff2abe1f1a057172928aa6833c81869dfc5c2/card%20info.png)
 
 
 ## 📌 Future Enhancements
